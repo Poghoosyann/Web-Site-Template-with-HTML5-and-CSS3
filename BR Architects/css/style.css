@@ -1,0 +1,159 @@
+header .row {
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    box-shadow: darkgray 1px 3px 5px;
+    z-index: 7777;
+}
+
+header a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 13px;
+    font-size: 1.2em;
+    transition: all .5s;
+}
+
+header a:hover {
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.595);
+}
+
+#hero {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+#hero .row {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero .wrapper {
+    font-family: serif;
+    color: white;
+    padding: 250px;
+    font-size: 2.5em;
+}
+
+#hero span {
+    padding: 15px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.607);
+    color: rgba(255, 255, 255, 0.903);
+}
+
+#gallery {
+    padding: 20px;
+}
+
+#gallery picture {
+    padding: 20px;
+}
+
+#lorem .wrapper {
+    padding: 30px;
+    font-size: 1.3em;
+}
+
+#workers .wrapper {
+    padding: 30px;
+}
+
+.job {
+    padding: 5px;
+    font-size: 1.1em;
+    color: gray;
+}
+
+.name {
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.bio {
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+#workers form {
+    padding: 5px;
+}
+
+#workers input {
+    padding: 10px;
+    font-size: 1.5em;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    transition: all .5s;
+}
+
+#workers input:hover {
+    color: white;
+    background-color: black;
+    border-radius: 0;
+}
+
+#forms {
+    padding: 30px;
+}
+
+#forms .col {
+    display: block;
+    padding: 10px;
+}
+
+#forms input {
+    font-size: 1.5em;
+    color: black;
+    background-color: white;
+    padding: 10px; 
+    width: 100%;
+    border-radius: 5px;
+}
+
+#forms button {
+    font-size: 1.2em;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+#forms button:hover {
+    color: black;
+    background-color: white;
+}
+
+#hero-two {
+    padding: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+footer a {
+    background-color: black;
+    color: white;
+}
+
+footer .row {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+#totop {
+    position: fixed;
+    top: 90%;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}

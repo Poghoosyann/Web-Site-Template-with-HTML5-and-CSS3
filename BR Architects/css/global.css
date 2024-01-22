@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+picture {
+    display: flex;
+}
+
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+.w-10{
+    width: 10%;
+}
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.w-100{
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.v-center{
+    display: flex;
+    align-items: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+::selection {
+    background-color: darkgray;
+}
+
+.title {
+    font-size: 1.4em;
+    padding: 40px;
+}
+
+.line {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.495);
+}
+
+.text {
+    font-size: 1.3em;
+    padding: 40px;
+}
+
+.block {
+    display: block;
+}
